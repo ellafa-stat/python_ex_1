@@ -22,6 +22,7 @@ N = [ L[0], L[2][1], L[2][2], [L[3][0][0], L[3][1][0]], L[4][0], L[4][2] ]
 print(N)
 
 print("end of 1") # set breakpoint here 
+
 '''
 
 

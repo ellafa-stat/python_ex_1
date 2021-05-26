@@ -23,6 +23,7 @@ for i, w in enumerate(sw):
         print(w.upper())
     else:
         print(w)
+        
 
 print("end of 3") # set breakpoint here 
 '''
