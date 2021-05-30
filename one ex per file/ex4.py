@@ -15,7 +15,16 @@ print("start of part 4") # set breakpoint here
 s = "A very long description" # a long string
 filler = "..."
 # your code here
-
+x = 5
+xmax = 15
+while x <= xmax:
+  first = s[:x]
+  last = s[-x:]
+  abbr = first+filler+last
+  if len(abbr) >= len(s):
+      abbr = s
+  print(x, ":", abbr)
+  x += 1
 
 print("end of 4") # set breakpoint here 
 
